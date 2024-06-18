@@ -1,0 +1,15 @@
+.container {
+  font-family: "Courier New", Courier, monospace;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
+  color: rgb(141, 0, 96);
+}
+
+p {
+  text-align: justify;
+}
