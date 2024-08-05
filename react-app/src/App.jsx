@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import { Text } from "./components";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
+import Login from "./components/Login/Login";
 
 function App() {
   const [click, setClick] = useState(0);
@@ -28,12 +29,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <Text content={"Hola como estas ?"}></Text>
-      <button onClick={() => setClick(click + 1)}>Clickeame</button>
-      <p>Hiciste click: {click} veces</p>
-      <button onClick={() => setActive((active) => !active)}>
-        {active ? "Desactivado" : "Activado"}
-      </button>
+      <Login />
     </>
   );
 }
